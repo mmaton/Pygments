@@ -40,4 +40,8 @@
   [item setView:pygmentsMenulet];
 }
 
+- (IBAction)test:(id)sender {
+    [self togglePopover];
+}
+
 @end

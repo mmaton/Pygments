@@ -20,4 +20,7 @@
 - (IBAction)menuletClicked;
 - (IBAction)menuletRightClicked;
 - (void)togglePopover;
+
+- (IBAction)test:(id)sender;
+
 @end

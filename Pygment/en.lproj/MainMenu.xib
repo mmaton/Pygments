@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1070</int>
-		<string key="IBDocument.SystemVersion">11C73</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
-		<string key="IBDocument.AppKitVersion">1138.23</string>
-		<string key="IBDocument.HIToolboxVersion">567.00</string>
+		<int key="IBDocument.SystemTarget">1080</int>
+		<string key="IBDocument.SystemVersion">12D78</string>
+		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
+		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">1938</string>
+			<string key="NS.object.0">3084</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
-			<string>NSMenu</string>
-			<string>NSMenuItem</string>
 			<string>NSBox</string>
-			<string>NSImageView</string>
-			<string>NSCustomView</string>
-			<string>NSViewController</string>
-			<string>NSImageCell</string>
-			<string>NSPopover</string>
 			<string>NSColorWell</string>
 			<string>NSCustomObject</string>
+			<string>NSCustomView</string>
+			<string>NSImageCell</string>
+			<string>NSImageView</string>
+			<string>NSMenu</string>
+			<string>NSMenuItem</string>
+			<string>NSPopover</string>
+			<string>NSViewController</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -394,7 +394,6 @@
 			<object class="NSViewController" id="357278583"/>
 			<object class="NSPopover" id="615274377">
 				<nil key="NSNextResponder"/>
-				<reference key="NSContentViewController" ref="357278583"/>
 				<int key="NSAppearance">0</int>
 				<int key="NSBehavior">0</int>
 				<double key="NSContentWidth">0.0</double>
@@ -402,7 +401,7 @@
 				<bool key="NSAnimates">YES</bool>
 			</object>
 			<object class="NSCustomView" id="130530149">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">45</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="NSImageView" id="366752164">
@@ -417,12 +416,10 @@
 						</set>
 						<string key="NSFrame">{{3, 3}, {16, 16}}</string>
 						<reference key="NSSuperview" ref="130530149"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:2141</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSImageCell" key="NSCell" id="858677211">
-							<int key="NSCellFlags">130560</int>
+							<int key="NSCellFlags">134217728</int>
 							<int key="NSCellFlags2">33554432</int>
 							<object class="NSCustomResource" key="NSContents">
 								<string key="NSClassName">NSImage</string>
@@ -434,12 +431,11 @@
 							<int key="NSStyle">0</int>
 							<bool key="NSAnimates">NO</bool>
 						</object>
+						<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						<bool key="NSEditable">YES</bool>
 					</object>
 				</array>
 				<string key="NSFrameSize">{22, 22}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="366752164"/>
 				<string key="NSReuseIdentifierKey">_NS:1192</string>
 				<string key="NSClassName">Menulet</string>
@@ -458,11 +454,13 @@
 								<set class="NSMutableSet" key="NSDragTypes">
 									<string>NSColor pasteboard type</string>
 								</set>
-								<string key="NSFrame">{{173, 10}, {23, 23}}</string>
+								<string key="NSFrame">{{312, 14}, {23, 23}}</string>
 								<reference key="NSSuperview" ref="959110984"/>
 								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:3925</string>
 								<bool key="NSEnabled">YES</bool>
+								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 								<bool key="NSIsBordered">YES</bool>
 								<object class="NSColor" key="NSColor">
 									<int key="NSColorSpace">1</int>
@@ -475,12 +473,13 @@
 								<set class="NSMutableSet" key="NSDragTypes">
 									<string>NSColor pasteboard type</string>
 								</set>
-								<string key="NSFrame">{{142, 10}, {23, 23}}</string>
+								<string key="NSFrame">{{281, 14}, {23, 23}}</string>
 								<reference key="NSSuperview" ref="959110984"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="896742812"/>
 								<string key="NSReuseIdentifierKey">_NS:3925</string>
 								<bool key="NSEnabled">YES</bool>
+								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 								<bool key="NSIsBordered">YES</bool>
 								<object class="NSColor" key="NSColor">
 									<int key="NSColorSpace">1</int>
@@ -493,12 +492,13 @@
 								<set class="NSMutableSet" key="NSDragTypes">
 									<string>NSColor pasteboard type</string>
 								</set>
-								<string key="NSFrame">{{111, 10}, {23, 23}}</string>
+								<string key="NSFrame">{{250, 14}, {23, 23}}</string>
 								<reference key="NSSuperview" ref="959110984"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="630583219"/>
 								<string key="NSReuseIdentifierKey">_NS:3925</string>
 								<bool key="NSEnabled">YES</bool>
+								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 								<bool key="NSIsBordered">YES</bool>
 								<object class="NSColor" key="NSColor">
 									<int key="NSColorSpace">1</int>
@@ -511,12 +511,13 @@
 								<set class="NSMutableSet" key="NSDragTypes">
 									<string>NSColor pasteboard type</string>
 								</set>
-								<string key="NSFrame">{{80, 10}, {23, 23}}</string>
+								<string key="NSFrame">{{219, 14}, {23, 23}}</string>
 								<reference key="NSSuperview" ref="959110984"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="425042492"/>
 								<string key="NSReuseIdentifierKey">_NS:3925</string>
 								<bool key="NSEnabled">YES</bool>
+								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 								<bool key="NSIsBordered">YES</bool>
 								<object class="NSColor" key="NSColor">
 									<int key="NSColorSpace">1</int>
@@ -529,12 +530,13 @@
 								<set class="NSMutableSet" key="NSDragTypes">
 									<string>NSColor pasteboard type</string>
 								</set>
-								<string key="NSFrame">{{49, 10}, {23, 23}}</string>
+								<string key="NSFrame">{{188, 14}, {23, 23}}</string>
 								<reference key="NSSuperview" ref="959110984"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="297047556"/>
 								<string key="NSReuseIdentifierKey">_NS:3925</string>
 								<bool key="NSEnabled">YES</bool>
+								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 								<bool key="NSIsBordered">YES</bool>
 								<object class="NSColor" key="NSColor">
 									<int key="NSColorSpace">1</int>
@@ -547,12 +549,13 @@
 								<set class="NSMutableSet" key="NSDragTypes">
 									<string>NSColor pasteboard type</string>
 								</set>
-								<string key="NSFrame">{{18, 10}, {23, 23}}</string>
+								<string key="NSFrame">{{157, 14}, {23, 23}}</string>
 								<reference key="NSSuperview" ref="959110984"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="547128874"/>
 								<string key="NSReuseIdentifierKey">_NS:3925</string>
 								<bool key="NSEnabled">YES</bool>
+								<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 								<bool key="NSIsBordered">YES</bool>
 								<object class="NSColor" key="NSColor">
 									<int key="NSColorSpace">1</int>
@@ -560,23 +563,23 @@
 								</object>
 							</object>
 						</array>
-						<string key="NSFrame">{{1, 1}, {214, 38}}</string>
+						<string key="NSFrame">{{1, 1}, {492, 358}}</string>
 						<reference key="NSSuperview" ref="224521332"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="502977648"/>
 						<string key="NSReuseIdentifierKey">_NS:21</string>
 					</object>
 				</array>
-				<string key="NSFrameSize">{216, 54}</string>
+				<string key="NSFrameSize">{494, 374}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="959110984"/>
 				<string key="NSReuseIdentifierKey">_NS:18</string>
 				<string key="NSOffsets">{0, 0}</string>
 				<object class="NSTextFieldCell" key="NSTitleCell">
-					<int key="NSCellFlags">67239424</int>
+					<int key="NSCellFlags">67108864</int>
 					<int key="NSCellFlags2">0</int>
-					<string key="NSContents">Colors</string>
+					<string key="NSContents">Colours</string>
 					<object class="NSFont" key="NSSupport">
 						<string key="NSName">LucidaGrande</string>
 						<double key="NSSize">11</double>
@@ -1129,44 +1132,14 @@
 						<int key="objectID">546</int>
 						<reference key="object" ref="224521332"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="630583219"/>
 							<reference ref="896742812"/>
+							<reference ref="630583219"/>
 							<reference ref="425042492"/>
 							<reference ref="297047556"/>
 							<reference ref="547128874"/>
 							<reference ref="502977648"/>
 						</array>
 						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">547</int>
-						<reference key="object" ref="896742812"/>
-						<reference key="parent" ref="224521332"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">548</int>
-						<reference key="object" ref="630583219"/>
-						<reference key="parent" ref="224521332"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">549</int>
-						<reference key="object" ref="425042492"/>
-						<reference key="parent" ref="224521332"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">550</int>
-						<reference key="object" ref="297047556"/>
-						<reference key="parent" ref="224521332"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">551</int>
-						<reference key="object" ref="547128874"/>
-						<reference key="parent" ref="224521332"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">552</int>
-						<reference key="object" ref="502977648"/>
-						<reference key="parent" ref="224521332"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">558</int>
@@ -1180,6 +1153,36 @@
 						<int key="objectID">559</int>
 						<reference key="object" ref="858677211"/>
 						<reference key="parent" ref="366752164"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">550</int>
+						<reference key="object" ref="297047556"/>
+						<reference key="parent" ref="224521332"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">552</int>
+						<reference key="object" ref="502977648"/>
+						<reference key="parent" ref="224521332"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">551</int>
+						<reference key="object" ref="547128874"/>
+						<reference key="parent" ref="224521332"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">549</int>
+						<reference key="object" ref="425042492"/>
+						<reference key="parent" ref="224521332"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">548</int>
+						<reference key="object" ref="630583219"/>
+						<reference key="parent" ref="224521332"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">547</int>
+						<reference key="object" ref="896742812"/>
+						<reference key="parent" ref="224521332"/>
 					</object>
 				</array>
 			</object>
@@ -1245,7 +1248,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">568</int>
+			<int key="maxID">573</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1293,17 +1296,20 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">MenuletController</string>
 					<string key="superclassName">NSObject</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">menuletSetup:</string>
-						<string key="NS.object.0">NSStatusItem</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">menuletSetup:</string>
-						<object class="IBActionInfo" key="NS.object.0">
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="menuletSetup:">NSStatusItem</string>
+						<string key="test:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="menuletSetup:">
 							<string key="name">menuletSetup:</string>
 							<string key="candidateClassName">NSStatusItem</string>
 						</object>
-					</object>
+						<object class="IBActionInfo" key="test:">
+							<string key="name">test:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="popOverController">NSViewController</string>
 						<string key="pygmentsBoxIcon">NSBox</string>
@@ -1333,47 +1339,6 @@
 						<string key="minorKey">./Classes/MenuletController.h</string>
 					</object>
 				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSDocument</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="printDocument:">id</string>
-						<string key="revertDocumentToSaved:">id</string>
-						<string key="runPageLayout:">id</string>
-						<string key="saveDocument:">id</string>
-						<string key="saveDocumentAs:">id</string>
-						<string key="saveDocumentTo:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="printDocument:">
-							<string key="name">printDocument:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="revertDocumentToSaved:">
-							<string key="name">revertDocumentToSaved:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="runPageLayout:">
-							<string key="name">runPageLayout:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="saveDocument:">
-							<string key="name">saveDocument:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="saveDocumentAs:">
-							<string key="name">saveDocumentAs:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="saveDocumentTo:">
-							<string key="name">saveDocumentTo:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/NSDocument.h</string>
-					</object>
-				</object>
 			</array>
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
@@ -1381,8 +1346,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NSMenuCheckmark">{9, 8}</string>
-			<string key="NSMenuMixedState">{7, 2}</string>
+			<string key="NSMenuCheckmark">{11, 11}</string>
+			<string key="NSMenuMixedState">{10, 3}</string>
 			<string key="PaletteIcon">{19, 19}</string>
 		</dictionary>
 	</data>

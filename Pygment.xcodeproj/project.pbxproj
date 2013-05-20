@@ -21,6 +21,15 @@
 		169B14E2145CA052004B0533 /* PygmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169B14E1145CA052004B0533 /* PygmentTests.m */; };
 		16D613EB145CB32F005CD7E9 /* Menulet.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D613EA145CB32F005CD7E9 /* Menulet.m */; };
 		16D613EF145D033D005CD7E9 /* MenuletController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D613EE145D033D005CD7E9 /* MenuletController.m */; };
+		50F2F9D7174AB481000F5050 /* BrightnessWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F2F9C7174AB481000F5050 /* BrightnessWheel.png */; };
+		50F2F9D8174AB481000F5050 /* ColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F2F9C8174AB481000F5050 /* ColorWheel.png */; };
+		50F2F9D9174AB481000F5050 /* MNBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2F9CA174AB481000F5050 /* MNBrightnessView.m */; };
+		50F2F9DA174AB481000F5050 /* MNColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2F9CC174AB481000F5050 /* MNColorPicker.m */; };
+		50F2F9DB174AB481000F5050 /* MNColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2F9CE174AB481000F5050 /* MNColorView.m */; };
+		50F2F9DC174AB481000F5050 /* MNColorWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2F9D0174AB481000F5050 /* MNColorWheelView.m */; };
+		50F2F9DD174AB481000F5050 /* MNMagnifyingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2F9D2174AB481000F5050 /* MNMagnifyingView.m */; };
+		50F2F9DE174AB481000F5050 /* MNMobileFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2F9D4174AB481000F5050 /* MNMobileFunctions.m */; };
+		50F2F9DF174AB481000F5050 /* UIColor+ColorSpaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F2F9D6174AB481000F5050 /* UIColor+ColorSpaces.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +69,22 @@
 		16D613EC145CB626005CD7E9 /* MenuletDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuletDelegate.h; sourceTree = "<group>"; };
 		16D613ED145D033D005CD7E9 /* MenuletController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuletController.h; sourceTree = "<group>"; };
 		16D613EE145D033D005CD7E9 /* MenuletController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuletController.m; sourceTree = "<group>"; };
+		50F2F9C7174AB481000F5050 /* BrightnessWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrightnessWheel.png; sourceTree = "<group>"; };
+		50F2F9C8174AB481000F5050 /* ColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorWheel.png; sourceTree = "<group>"; };
+		50F2F9C9174AB481000F5050 /* MNBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNBrightnessView.h; sourceTree = "<group>"; };
+		50F2F9CA174AB481000F5050 /* MNBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNBrightnessView.m; sourceTree = "<group>"; };
+		50F2F9CB174AB481000F5050 /* MNColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorPicker.h; sourceTree = "<group>"; };
+		50F2F9CC174AB481000F5050 /* MNColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorPicker.m; sourceTree = "<group>"; };
+		50F2F9CD174AB481000F5050 /* MNColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorView.h; sourceTree = "<group>"; };
+		50F2F9CE174AB481000F5050 /* MNColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorView.m; sourceTree = "<group>"; };
+		50F2F9CF174AB481000F5050 /* MNColorWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorWheelView.h; sourceTree = "<group>"; };
+		50F2F9D0174AB481000F5050 /* MNColorWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorWheelView.m; sourceTree = "<group>"; };
+		50F2F9D1174AB481000F5050 /* MNMagnifyingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMagnifyingView.h; sourceTree = "<group>"; };
+		50F2F9D2174AB481000F5050 /* MNMagnifyingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMagnifyingView.m; sourceTree = "<group>"; };
+		50F2F9D3174AB481000F5050 /* MNMobileFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMobileFunctions.h; sourceTree = "<group>"; };
+		50F2F9D4174AB481000F5050 /* MNMobileFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMobileFunctions.m; sourceTree = "<group>"; };
+		50F2F9D5174AB481000F5050 /* UIColor+ColorSpaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorSpaces.h"; sourceTree = "<group>"; };
+		50F2F9D6174AB481000F5050 /* UIColor+ColorSpaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorSpaces.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +158,7 @@
 		169B14BA145CA051004B0533 /* Pygment */ = {
 			isa = PBXGroup;
 			children = (
+				50F2F9E0174AB48A000F5050 /* Colourwheel */,
 				1610A42D145F6E96001A7061 /* MainMenu.xib */,
 				1610A429145F6CD2001A7061 /* Resources */,
 				16D613F0145D1D7B005CD7E9 /* Menulet */,
@@ -187,6 +213,29 @@
 			name = Menulet;
 			sourceTree = "<group>";
 		};
+		50F2F9E0174AB48A000F5050 /* Colourwheel */ = {
+			isa = PBXGroup;
+			children = (
+				50F2F9C7174AB481000F5050 /* BrightnessWheel.png */,
+				50F2F9C8174AB481000F5050 /* ColorWheel.png */,
+				50F2F9C9174AB481000F5050 /* MNBrightnessView.h */,
+				50F2F9CA174AB481000F5050 /* MNBrightnessView.m */,
+				50F2F9CB174AB481000F5050 /* MNColorPicker.h */,
+				50F2F9CC174AB481000F5050 /* MNColorPicker.m */,
+				50F2F9CD174AB481000F5050 /* MNColorView.h */,
+				50F2F9CE174AB481000F5050 /* MNColorView.m */,
+				50F2F9CF174AB481000F5050 /* MNColorWheelView.h */,
+				50F2F9D0174AB481000F5050 /* MNColorWheelView.m */,
+				50F2F9D1174AB481000F5050 /* MNMagnifyingView.h */,
+				50F2F9D2174AB481000F5050 /* MNMagnifyingView.m */,
+				50F2F9D3174AB481000F5050 /* MNMobileFunctions.h */,
+				50F2F9D4174AB481000F5050 /* MNMobileFunctions.m */,
+				50F2F9D5174AB481000F5050 /* UIColor+ColorSpaces.h */,
+				50F2F9D6174AB481000F5050 /* UIColor+ColorSpaces.m */,
+			);
+			name = Colourwheel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,7 +281,7 @@
 		169B14A7145CA051004B0533 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 169B14AA145CA051004B0533 /* Build configuration list for PBXProject "Pygment" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -261,6 +310,8 @@
 				169B14C5145CA051004B0533 /* Credits.rtf in Resources */,
 				1610A42C145F6CF9001A7061 /* PaletteIcon.png in Resources */,
 				1610A42F145F6E96001A7061 /* MainMenu.xib in Resources */,
+				50F2F9D7174AB481000F5050 /* BrightnessWheel.png in Resources */,
+				50F2F9D8174AB481000F5050 /* ColorWheel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +351,13 @@
 				169B14CE145CA051004B0533 /* Pygment.xcdatamodeld in Sources */,
 				16D613EB145CB32F005CD7E9 /* Menulet.m in Sources */,
 				16D613EF145D033D005CD7E9 /* MenuletController.m in Sources */,
+				50F2F9D9174AB481000F5050 /* MNBrightnessView.m in Sources */,
+				50F2F9DA174AB481000F5050 /* MNColorPicker.m in Sources */,
+				50F2F9DB174AB481000F5050 /* MNColorView.m in Sources */,
+				50F2F9DC174AB481000F5050 /* MNColorWheelView.m in Sources */,
+				50F2F9DD174AB481000F5050 /* MNMagnifyingView.m in Sources */,
+				50F2F9DE174AB481000F5050 /* MNMobileFunctions.m in Sources */,
+				50F2F9DF174AB481000F5050 /* UIColor+ColorSpaces.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +421,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -377,6 +439,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
@@ -390,6 +453,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -398,6 +465,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
@@ -407,6 +475,7 @@
 		169B14E6145CA052004B0533 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pygment/Pygment-Prefix.pch";
 				INFOPLIST_FILE = "Pygment/Pygment-Info.plist";
@@ -418,6 +487,7 @@
 		169B14E7145CA052004B0533 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pygment/Pygment-Prefix.pch";
 				INFOPLIST_FILE = "Pygment/Pygment-Info.plist";
@@ -430,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pygment.app/Contents/MacOS/Pygment";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pygment/Pygment-Prefix.pch";
@@ -444,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pygment.app/Contents/MacOS/Pygment";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pygment/Pygment-Prefix.pch";
